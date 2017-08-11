@@ -1,0 +1,41 @@
+﻿body {
+    font-family: Verdana;
+}
+
+.container{
+    width: 1000px;
+    height:800px;
+    background-color:red;
+
+}
+
+.header{
+    text-align:center;
+    background-color:#ffd800;
+    color:blue;
+    height:100px;
+}
+
+
+.content{
+    display:flex;
+    /*flex-direction:column;*/
+}
+
+.player1 {
+    background-color:#4cff00;
+    height:600px;
+    flex-grow:1;
+}
+
+.player2 {
+    background-color:#808080;
+    height:600px;
+    flex-grow:1;
+}
+
+#again{
+    display:none;
+    
+
+}

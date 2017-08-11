@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>RockScissorPaper</title>
+    <meta charset="utf-8" />
+    <script src="MeuJavaScript.js"></script>
+    <link href="meusEstilos.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+
+            <h3>Rock Scissor Paper </h3>
+        </div>
+
+        <div class="content">
+            <div class="player1">
+                Player 1<br />
+                <img src="Ryu.png" alt="ryu.png" style="height:200px" /><br />
+
+                <img id="imgM1" src="nada.png" alt="nada" style="height:100px" /><br />
+                <div class="Choose">
+                   <p id="mym"> Make Your move!!</p><br />
+                    <button id="rock" onclick='Move(0)'>Rock</button>
+                    <button id="scissor" onclick='Move(1)'>scisor</button>
+                    <button id="paper" onclick='Move(2)'>paper</button>
+                </div>
+
+            </div>
+            <div class="player2">
+                Player 2<br />
+                <img src="Blanka.jpg" alt="Blanka.jpg" style="height:200px" />
+                <br />
+
+                <img id="imgM2" src="nada.png" alt="nada" style="height:100px" /><br />
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            <p id="stats">stats </p>
+
+            <p id="resultado">RESULTADO </p>
+            <button id="again" onclick='Clear()'>Round2 Go!!</button>
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+</html>
